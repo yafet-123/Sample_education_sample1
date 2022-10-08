@@ -4,13 +4,15 @@ import Link from "next/link";
 export function About() {
   return (
     <div className="my-16">
-      <div className="flex items-center mx-16">
-        <span className="py-2 px-16 bg-black m-10"></span>
-        <h1 className="text-5xl text-black font-bold">About Us</h1>
+      <div className="md:flex items-center mx-16">
+        <span className="hidden md:inline-flex py-2 px-16 bg-black m-10"></span>
+        <h1 className="text-center md:text-left text-5xl text-black font-bold">
+          About Us
+        </h1>
       </div>
 
-      <div className="mx-16 flex justify-between items-center m-10 font-serif text-base tracking-wide leading-8 text-center capitalize">
-        <p className="w-5/12">
+      <div className="mx-16 flex flex-col md:flex-row justify-between items-center m-10 font-serif text-base tracking-wide leading-8 text-center capitalize">
+        <p className="w-5/12 mb-5 md:mb-0">
           Art Text is graphic design software for Mac that brings text effects,
           typography, and logo design to the next level. With its intuitive
           design toolkit, graphic presets, and typography templates you will
@@ -29,14 +31,12 @@ export function About() {
         </p>
       </div>
 
-      <div className="relative">
-        <Image
-          src="/image/bgImage6.avif"
-          width={1920}
-          height={700}
-          className="absolute "
-        />
-        <div className="absolute top-24 mx-36 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="md:relative">
+        <div className="hidden md:inline-flex">
+          <Image src="/image/bgImage6.avif" width={1920} height={700} />
+        </div>
+
+        <div className="md:absolute top-24 mx-36 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white">
             <Image
               src="/image/gridImage1.avif"
@@ -71,7 +71,9 @@ export function About() {
                 Meet Our Board of Directors
               </p>
               <Link href="">
-                <a className="absolute font-bold underline bottom-10">More</a>
+                <a className="md:absolute font-bold underline bottom-10">
+                  More
+                </a>
               </Link>
             </div>
           </div>
@@ -89,7 +91,9 @@ export function About() {
                 with the corporate sector
               </p>
               <Link href="">
-                <a className="absolute font-bold underline bottom-10">More</a>
+                <a className="md:absolute font-bold underline bottom-10">
+                  More
+                </a>
               </Link>
             </div>
           </div>

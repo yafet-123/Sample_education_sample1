@@ -28,7 +28,7 @@ export function News() {
           Submit
         </button>
       </div>
-      <div className="mt-24">
+      <div className="mt-24 mx-20 md:mx-0">
         <Image
           src="/image/bgImage11.avif"
           width={1920}
@@ -37,7 +37,7 @@ export function News() {
         />
       </div>
 
-      <div className="-mt-2 mb-5">
+      <div className="-mt-2 mb-5 mx-20 md:mx-0">
         <Image
           src="/image/bgImage12.avif"
           width={1920}

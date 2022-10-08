@@ -15,8 +15,8 @@ export default function Home() {
           className="absolute w-full"
         />
         <div className="absolute right-10 z-10 bottom-20 flex items-center">
-          <span className="py-2 px-20 bg-white m-20"></span>
-          <h1 className="text-7xl text-white font-bold mt-16 italic">
+          <span className="hidden md:inline-flex py-2 px-20 bg-white m-20"></span>
+          <h1 className="text-5xl md:text-7xl text-white font-bold mt-16 italic">
             National Art <sapn className="block text-right">School</sapn>{" "}
           </h1>
         </div>
