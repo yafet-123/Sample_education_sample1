@@ -28,7 +28,7 @@ export function News() {
           Submit
         </button>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-24 mx-20">
         <div className="news_background_one w-full h-[40rem]"></div>
 
         <div className="news_background_two w-full h-[40rem]"></div>
