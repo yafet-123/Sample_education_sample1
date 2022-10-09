@@ -8,3 +8,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.about_background {
+  background-image: url("../public/image/bgImage6.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.people_background {
+  background-image: url("../public/image/bgImage10.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news_background_one {
+  background-image: url("../public/image/bgImage11.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news_background_two {
+  background-image: url("../public/image/bgImage12.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

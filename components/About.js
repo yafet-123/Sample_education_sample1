@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export function About() {
   return (
-    <div className="my-16">
+    <div className="my-16 h-full w-full">
       <div className="md:flex items-center mx-16">
         <span className="hidden md:inline-flex py-2 px-16 bg-black m-10"></span>
         <h1 className="text-center md:text-left text-5xl text-black font-bold">
@@ -12,7 +12,7 @@ export function About() {
       </div>
 
       <div className="mx-16 flex flex-col md:flex-row justify-between items-center m-10 font-serif text-base tracking-wide leading-8 text-center capitalize">
-        <p className="w-5/12 mb-5 md:mb-0">
+        <p className="w-full md:w-5/12 mb-5 md:mb-0">
           Art Text is graphic design software for Mac that brings text effects,
           typography, and logo design to the next level. With its intuitive
           design toolkit, graphic presets, and typography templates you will
@@ -21,23 +21,19 @@ export function About() {
           make eye-catching captions for social media posts.
         </p>
 
-        <p className="w-5/12 mt-10">
+        <p className="w-full md:w-5/12 mt-10">
           Art Text comes equipped with a wide selection of text styles, surface
           materials and effects. Unrestricted by any presets, your creativity
           will take flight with easily adjustable textures, surface bump maps,
           environment textures, light spots and shadows, and other settings to
           come up with new materials.
-          <span className="block py-10 px-2 bg-black float-right mt-10"></span>
+          <span className="hidden md:block py-10 px-2 bg-black float-right mt-10"></span>
         </p>
       </div>
 
-      <div className="md:relative">
-        <div className="hidden md:inline-flex">
-          <Image src="/image/bgImage6.avif" width={1920} height={700} />
-        </div>
-
-        <div className="md:absolute top-24 mx-36 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white">
+      <div className="about_background h-full w-full">
+        <div className="mx-20 py-20 md:pt-24 md:pb-96 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="relative bg-white">
             <Image
               src="/image/gridImage1.avif"
               width={1000}
@@ -56,7 +52,7 @@ export function About() {
             </div>
           </div>
 
-          <div className="bg-white">
+          <div className="relative bg-white">
             <Image
               src="/image/gridImage3.avif"
               width={1000}
@@ -77,7 +73,7 @@ export function About() {
               </Link>
             </div>
           </div>
-          <div className="bg-white">
+          <div className="relative bg-white">
             <Image
               src="/image/gridImage4.avif"
               width={1000}

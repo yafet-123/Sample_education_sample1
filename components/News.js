@@ -28,26 +28,14 @@ export function News() {
           Submit
         </button>
       </div>
-      <div className="mt-24 mx-20 md:mx-0">
-        <Image
-          src="/image/bgImage11.avif"
-          width={1920}
-          height={500}
-          className="absolute w-full"
-        />
-      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-24">
+        <div className="news_background_one w-full h-[40rem]"></div>
 
-      <div className="-mt-2 mb-5 mx-20 md:mx-0">
-        <Image
-          src="/image/bgImage12.avif"
-          width={1920}
-          height={500}
-          className="absolute w-full"
-        />
+        <div className="news_background_two w-full h-[40rem]"></div>
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center m-20">
-        <div className="w-5/12 flex flex-col justify-between mb-5 md:mb-0">
+        <div className="w-full md:w-5/12 flex flex-col justify-between mb-5 md:mb-0">
           <h1 className="text-left text-4xl font-serif font-medium mb-5">
             Forbes St, Darlinghurst
           </h1>
@@ -59,7 +47,7 @@ export function News() {
           </Link>
         </div>
 
-        <div className="w-5/12 flex flex-col justify-between">
+        <div className="w-full md:w-5/12 flex flex-col justify-between">
           <h1 className="text-left text-4xl font-serif font-medium mb-5">
             Student Service
           </h1>
