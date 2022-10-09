@@ -52,7 +52,9 @@ export function People() {
                 student resource and support services.
               </p>
               <Link href="">
-                <a className="md:absolute font-bold underline bottom-5">More</a>
+                <a className="md:nabsolute font-bold underline bottom-5">
+                  More
+                </a>
               </Link>
             </div>
           </div>

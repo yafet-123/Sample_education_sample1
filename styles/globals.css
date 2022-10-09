@@ -1,4 +1,10 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero_background {
+  background-image: url("../public/image/bgImage3.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
